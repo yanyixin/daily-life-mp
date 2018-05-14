@@ -48,6 +48,7 @@
         <view class="tunnel-text {{ tunnelStatus && tunnelStatus === 'connected' ? 'active' : 'disable' }}" bindtap="sendMessage">
             <text>发送消息</text>
         </view>
+        <text>{{speakContent}}</text>
     </view>
 
     <!-- 上传图片测试 -->

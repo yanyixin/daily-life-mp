@@ -8,7 +8,8 @@ Page({
         userInfo: {},
         logged: false,
         takeSession: false,
-        requestResult: ''
+        requestResult: '',
+        speakContent: '当前说话内容为空'
     },
 
     // 用户登录示例
@@ -185,6 +186,7 @@ Page({
         tunnel.on('speak', speak => {
             util.showModel('信道消息', speak)
             console.log('收到说话消息：', speak)
+            this.setData({speakContent: speak.word})
         })
 
         // 打开信道
