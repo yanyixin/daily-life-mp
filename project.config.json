@@ -1,0 +1,12 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"miniprogramRoot": "./client",
+	"qcloudRoot": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wxcbed6aaabb0d45fe",
+	"projectname": "daily-life-mp-node",
+	"condition": {}
+}
